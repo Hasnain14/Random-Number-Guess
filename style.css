@@ -1,0 +1,79 @@
+body{
+    background-image: linear-gradient(to bottom left, hsl(196, 63%, 82%) 0%, #ffffff 100%);
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.fromDesign{
+    box-shadow: 4px 10px 15px rgb(12, 0, 0);
+    border-radius: 8px;
+    width: 100%;
+    margin-right: 100px;
+}
+.text-title{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+    color: tomato;
+}
+.text-para-subHeading{
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-bottom: 2%;
+    font-weight: 600;
+}
+.text-para{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 6%;
+}
+.submitButton{
+    background-image: linear-gradient(45deg, rgb(11, 5, 34), rgb(21, 205, 214));
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 5px 25px;
+    transition: .4s;
+    margin-left: 15px;
+}
+.submitButton:hover{
+    transform: scale(1.1);
+}
+
+#input-Area{
+    display: none;
+}
+.input-section{
+    box-shadow: 4px 4px 10px gray;
+    border-radius: 8px;
+    width: 90%;
+    margin: 0 5%;
+    
+}
+.input-box{
+    border-radius: 8px;
+    padding: 5px 25px;
+    margin-bottom: 5%;
+}
+.remaining-calculation{
+    width: 50%;
+    margin: auto;
+    background-color: lightsalmon;
+    color: whitesmoke;
+    border-radius: 8px;
+    padding: 2% 4%;
+    justify-content: center;
+}
+.remaining-calculation h5{
+    text-transform: capitalize;
+    font-size: 35px;
+}
+.remaining-calculation h2{
+    color: red;
+}
+
+#score-area{
+    display: none;
+}
